@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainarea{
+    width: 1000px;
+    text-align: left;
+    margin: auto;
+    margin-top:20px;
+    border: solid 1px rgba(0, 0, 0, 0.74);
+    box-shadow: 5px 10px 8px #888888;
+    background-image: url(images/the_most_beautiful_road_in_the_world_2.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+.mainarea h1, .mainarea h3{
+    margin: 10px;
+    padding-left: 20;
+}
+.nav{
+    margin: auto;
+    width: 90%;
+    border: none;
+    text-align: center;
+    background: transparent;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5px;
+}
+.nav a button{
+    width: 170px;
+    padding: 10px;
+    font-size: 12pt;
+    transition: linear 0.3s ;
+    border: none;
+    background-image: url(images/beautiful_angry_lion-wallpaper-1366x768.jpg);
+}
+
+.nav a button:hover{
+    background: rgb(39, 1, 39);
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 8px 8px #888888;
+}
+
+.heading{
+    font-style: none;
+text-decoration: none;
+}
+.h1{
+    color: teal;
+}
+.h3{
+    color: yellowgreen;
+}
+.cat_main{
+    position: sticky;
+    text-align: right;
+    margin-top: 50px;
+}
+.cat_list{
+    list-style-type: none;
+    
+}
+.cat_list li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+}
+
+.cat_list li a:hover{
+    text-decoration: underline;
+}
+.cat{
+    border: solid 0.2px rgba(0, 0, 0, 0.877);
+    width: 170px;
+    margin: 0px 10px ;
+    box-shadow: 5px 5px 8px 8px #8888888f;
+    border-radius: 0px 0px 10px 10px;
+    background-image: url(images/rainforest_fog.jpg);
+    position: absolute;
+}
+.cat_title{
+    margin: 10px 10px 0px 10px;
+    background: rgb(39, 1, 39);
+    color: seashell;
+    padding: 5px 0px 5px 8px;
+    width: 162px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    background: white;
+    box-shadow: 5px 5px 20px 10px #4d4c4c;
+}
+.content img{
+    padding: 10px;
+    background: rgb(214, 213, 213);
+    width:auto;
+    height: 128px;
+    transition: linear 0.3s;
+    margin: auto;
+    
+}
+.content img:hover{
+box-shadow: 5px 5px 15px 10px #888888;
+opacity: 0.9;
+
+}
+.header{
+    background-image: url(images/autumn_sun_2.jpg);
+}
+.login{
+    position: absolute;
+    right: 200px;
+    width: 180px;
+    top: 200px;
+
+}
+.login_title{
+    background: rgb(39, 1, 39);
+    color: aliceblue;
+    padding: 5px ;
+   
+}
+.login_form{
+    border: solid 1px black;
+    padding: 10px 0px 10px 0px ;
+    background-image: url(images/japanese_girl_art.jpg);
+}
+.login_form input{
+    margin: 7px;
+    width: 150px;
+    height: 30px;
+    font-size: 13pt;
+    background-image: url(images/moraine_lake_sunrise.jpg);
+    color: whitesmoke;
+    border: none;
+}
+.login_form input:focus{
+    background: black;
+}
+.login_form input::placeholder{
+    color: wheat;
+    opacity: 0.5;
+}
+.login_form button{
+    color: wheat;
+    background: rgb(39, 1, 39);
+    padding: 5px;
+    font-size: 13pt;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    transition: ease 1s;
+}
+.login_form button:hover{
+    background: oldlace;
+}
+.search{
+        position: absolute;
+        right: 200px;
+        width: 190px;
+        top: 450px;
+}
+.fa-search{
+    color: wheat;
+    text-align: center;
+    background: rgb(39, 1, 39);
+    padding: 5px;
+}
+.fa-search:hover{
+    color: rgb(39, 1, 39);
+    background: wheat;
+}
+
+
+  .container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    display: inline-block;
+  }
+  
+  .images {
+
+    width: 200px;
+    height: auto;
+    margin: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 146px;
+    width: 245px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(39, 1, 39);
+  }
+  
+  .container:hover .overlay {
+    opacity: .5;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .fa-download:hover {
+    color: #eee;
+    opacity: 1;
+  }
+  .paging{
+      text-align: center;
+      margin: 50px;
+  }
+  .page{
+      border: solid rgb(39, 1, 39) 1px;
+      border-radius: 50%;
+      color: rgb(39, 1, 39);
+      text-decoration: none;
+      width: 20px;
+      height: 20px;
+      padding: 8px;
+      transition: ease 1s;
+  }
+  .page:hover{
+      background: rgb(39, 1, 39);
+      color: wheat;
+  }
